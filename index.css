@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color:black;
+    padding: 20px;
+}
+h3 {
+    color: black;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #00CED1;
+}
+.intro{
+    font-size: 20px;
+    text-align: left;
+}
+#int{
+    text-align: center;
+    background-color:aqua;
+    color: black;
+}
+.basic{
+    font-size: 16px;
+}
+#scl{
+    font-weight: bold;
+    font-size: 20px;
+}
+.skills{
+    font-size: 18px;
+}
+.skillgrp {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+#sa{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    width: 15%;
+}
+#web,#tech,#prog{
+    font-size:16px;
+}
+#proj{
+    text-decoration: underline;
+    border-radius: 12px;
+}
+#qt{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cat{
+    display: flex;
+    align-items: center;
+}
+.img{
+    text-align: center;
+    flex: 1;
+}
+
+.hob{
+    margin-left: 40px;
+    flex: 1;
+}
+.hob ul{
+    list-style-type: disc;
+}
+.hob  ul li{
+    margin-bottom: 10px;
+}
+.contact{
+    border-style: hidden;
+}
+#name,#mail,#msg,#btn{
+    padding: auto;
+    font-size: medium;
+    display: flex;
+    font-weight:bold ;
+}
+#mb{
+    font-weight: bold;
+    background-color:cornflowerblue;
+    color: black;
+    font-size: 24px;
+    width:15%;
+    text-align: center;
+}
+#az{
+    font-size: 30px;
+}
+.proj{
+    padding: 25px;
+    margin-bottom: 40px;
+}
+#rt{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #28a745;
+    color: black;
+    display: flex;
+    border: 5px;
+    width:10%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#tr{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #28a745;
+    color: black;
+    display: flex;
+    border: 5px;
+    width:20%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#tq{
+    text-decoration: underline;
+}
+input,textarea{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    color: black;
+}
+button{
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 300px;
+    font-size: large;
+}
+#renu{
+    width:100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
